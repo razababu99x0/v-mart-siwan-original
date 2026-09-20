@@ -46,7 +46,7 @@ export default function RootLayout({
           rel="stylesheet"
         />
       </head>
-      <body className="min-h-dvh bg-[#08080b] text-zinc-100 antialiased">
+      <body className="min-h-dvh bg-[#08080b] text-zinc-100 antialiased"><div role="note" style={{position:"fixed",bottom:0,left:0,right:0,zIndex:99999,textAlign:"center",padding:"6px 12px",background:"#111",color:"#fff",fontSize:12}}>Demo storefront · Orders and payments are unavailable</div>
         <a
           href="#top"
           className="sr-only z-[200] rounded-full bg-vmart-red px-4 py-2 text-sm font-semibold text-white focus:not-sr-only focus:fixed focus:left-4 focus:top-4"
