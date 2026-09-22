@@ -121,6 +121,7 @@ export function Footer() {
           <p className="text-xs text-zinc-500">
             © {new Date().getFullYear()} V-Mart Siwan. A prototype experience. Prices in ₹.
           </p>
+          <a href="https://dynamicdevelopments.vercel.app/" target="_blank" rel="noopener noreferrer" className="inline-flex min-h-11 items-center text-sm text-zinc-300 underline underline-offset-4 hover:text-white">Developed by Dynamic Developments</a>
           <motion.a
             href="#top"
             whileHover={{ y: -3 }}
